@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile ni Maxi</title>
+    <link href = "styles_me2.css" type = "text/css" rel = "stylesheet" />
 </head>
 <body>
-    <table align = "center">
+    <div>
+        <table class = "table_caption">
         <tr>
-            <th colspan = "2">Profile ni Maxi</th>
+            <th>Profile ni Maxi</th>
         </tr>
-    </table>
-    <table border = "4", bordercolor = "gold", cellpadding = "40", cellspacing = "1", align = "center">
+        </table>
+    </div>
+    
+    <div>
+        <table class = "main_table">
         <tr>
-            <th colspan = "2", bgcolor = "maroon">Maximus Aurelius A. Mamauag</th>
+            <th id = "table_header", colspan = "2">Maximus Aurelius A. Mamauag</th>
         </tr>
         <tr>
-            <td bgcolor = "lightyellow", background = "comsci-foreshadowing.png", width = "105", height = "50"</td>
-            <td align = "left">
+            <td id = "profile_picture"></td>
+            <td class = "cell_details">
                 <p><b>Full Name:</b> Maximus Aurelius A. Mamauag</p>
                 <p><b>Birthday:</b> June 12, 2006</p>
                 <p><b>Status:</b> <code>Student</code></p>
             </td>
         </tr>
         <tr>
-            <td bgcolor = "lightyellow", align = "center">
-                <p><b>Hobbies</b></p>
+            <td class = "cell_label">
+                <h3>Hobbies</h3>
             </td>
-            <td align = "left">
+            <td class = "cell_details">
                 <ul>
                     <li>Playing Badminton and Basketball</li>
                     <li>Listening nonstop to music</li>
@@ -37,10 +42,10 @@
             </td>
         </tr>
         <tr>
-            <td bgcolor = "lightyellow", align = "center">
-                <p><b>Top 3 Movies</b></p>
+            <td class = "cell_label">
+                <h3>Top 3 Movies</h3>
             </td>
-            <td align = "left">
+            <td class = "cell_details">
                 <ol>
                     <li>Gitling (2023)</li>
                     <li>Lost and Found (1996)</li>
@@ -49,27 +54,28 @@
             </td>
         </tr>
         <tr>
-            <td bgcolor = "lightyellow", align = "center">
-                <p><b>Favorite Quote</b></p>
+            <td class = "cell_label">
+                <h3>Favorite Quote</h3>
             </td>
-            <td align = "center">
-                <p><i>"Everything happens for a reason"</i></p>
-            </td>
-        </tr>
-        <tr>
-            <td bgcolor = "lightyellow", align = "center">
-                <p><b>Fun Fact</b></p>
-            </td>
-            <td align = "left">
-                <p>I once had a cow who I befriended, and named as <del>Imax</del>
-                <ins>Idol</ins>.</p>
+            <td class = "cell_details">
+                <h4>"Everything happens for a reason"</h4>
             </td>
         </tr>
         <tr>
-            <th colspan = "2", bgcolor = "green">
+            <td class = "cell_label">
+                <h3>Fun Fact</h3>
+            </td>
+            <td id = "fun_fact_cell">
+                <h4>I once had a cow who I befriended, and named as <del>Imax</del>
+                <ins>Idol</ins>.</h4>
+            </td>
+        </tr>
+        <tr>
+            <th id = "table_footer", colspan = "2">
                 <a href = "https://github.com/imax-cmsc">My Github Profile</a>
             </th>
         </tr>
     </table>
+    </div>
 </body>
 </html>

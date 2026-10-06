@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.table_caption {
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_caption tr {
+    font-style: italic;
+}
+
+.main_table {
+    text-align: center;
+    width: 50%;
+    border: 10px solid gold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell_details {
+    text-align: left;
+    padding: 10px;
+}
+
+.cell_label {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    background-color: lightyellow;
+}
+
+#fun_fact_cell {
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
+}
+
+#table_header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: maroon;
+    color: gold;
+}
+
+#table_footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: green;
+    color: gold;
+}
+
+#profile_picture {
+    background-image: url("comsci-foreshadowing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 105px;
+    height: 50px;
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+}
+
+p {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+}
+
+li {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+}
+
+a:link {
+    color: gold;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
